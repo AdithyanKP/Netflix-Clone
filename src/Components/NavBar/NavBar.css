@@ -6,6 +6,11 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  /*  Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.navbarscroll {
   background-color: #111;
 }
 
