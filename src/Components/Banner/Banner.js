@@ -16,6 +16,8 @@ function Banner() {
         setMovie(response.data.results[random]);
       });
   }, []);
+
+  //Banner Play button function//
   const play = () => {
     axios
       .get(`/movie/${movie.id}/videos?api_key=${API_KEY}&language=en-US`)

@@ -21,6 +21,8 @@ function RowPost(props) {
       autoplay: 1,
     },
   };
+
+  //cleckable poster image function//
   const handleMovie = (id) => {
     console.log(id);
     axios
